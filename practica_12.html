@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 12</title>
+    <!--CDN de boostrap version 4.6-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            
+            <a class="navbar-brand" href="#">
+              <img src="ropa.jpg" width="30" height="30" alt="">
+            </a>
+        
+            <div class="collapse navbar-collapse" id="opciones">   
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="practica_12.html">Practica 12</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="practica_11.html">Practica 11</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="practica_10.html">Practica 10</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="practica_9.html">Practica 9</a>
+                    </li>            
+                  </ul>
+              </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="practica_12.html">Practica 12</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="practica_11.html">Practica 11</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="practica_10.html">Practica 10</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="practica_9.html">Practica 9</a>
+              </li>            
+            </ul>
+          </nav>
+
+          <h1>Que bello es mi pais "El Salvador".</h1>
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel1" data-slide-to="1"></li>
+              <li data-target="#carousel1" data-slide-to="2"></li>
+            </ol>
+            <!-- imagenes -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="gastronomia.jpg" alt="">
+                  <div class="carousel-caption">
+                    <h3>Gastronomia salvadoreña</h3>
+                    <p>La gastronomía salvadoreña se elabora principalmente con ingredientes de procedencia local, especialmente maíz, el frijol, el arroz, pollo, res, cerdo, mariscos, algunos animales silvestres, lácteos, y muchas frutas y verduras. Incluyendo las bebidas una de las más destacadas es el café.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="ropa.jpg" alt="">
+                  <div class="carousel-caption">
+                    <h1>La vestimenta típica</h1>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="turismo.jpg" alt="">
+                  <div class="carousel-caption">
+                    <h3>El turismo en el Salvador</h3>
+                    <p>El turismo constituye uno de los mayores recursos para el desarrollo económico de El Salvador. A los excelentes atractivos naturales que posee el país, con playas paradisíacas, un clima tropical benigno.</p>
+                  </div>
+              </div>
+            </div>  
+            <!--botones de izquierda y derecha-->   
+            <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"><--</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel1" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">--></span>
+            </a>
+        </div>
+          
+        
+          
+        <h1>Alertas</h1>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="alert alert-success  alert-dismissible ">
+                    Se ha guardado exitosamente
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>x</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-warning  alert-dismissible ">
+                    Algo ha salido mal
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>x</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-danger">
+                    No se ha podido guardar
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>x</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-info">
+                    Todos los procesos se efectuaron exitomamente
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>x</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-primary">
+                    Se ha guardado exitosamente
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>x</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-secondary">
+                    Se ha guardado exitosamente
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>x</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <h2>Información acerca de este pais</h2>
+        <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#dialogo1">Abrir o dale clik aquí.</button>
+
+        <div class="modal fade" id="dialogo1">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+          
+                    <!-- cabecera del diálogo -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">¿Qué es El Salvador?</h4>
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    </div>
+            
+                    <!-- cuerpo del diálogo -->
+                    <div class="modal-body">
+                      El Salvador es una pequeña nación de América Central. Es conocida por sus playas en el océano Pacífico, los sitios de surf y el paisaje montañoso. 
+                    </div>
+            
+                    <!-- pie del diálogo -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+          
+                </div>
+            </div>
+        </div> 
+      
+        <h2>Contenidos que debes saber.</h2>
+        <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#dialogo2">Dale clik para saber.</button>
+
+        <div class="modal fade" id="dialogo2">
+            <div class="modal-dialog modal-md">
+              <div class="modal-content">
+          
+                    <div class="modal-header">
+                    <h4 class="modal-title">¿Dónde está El Salvador?.</h4>
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    </div>
+            
+                    <div class="modal-body">
+                      El Salvador es un país centroamericano localizado entre Guatemala y Honduras.
+                    </div>
+            
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+          
+                </div>
+            </div>
+        </div> 
+      
+        <h2>Información esencial</h2>
+        <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#dialogo3">Abrir aquí.</button>
+        <div class="modal fade" id="dialogo3">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                    <div class="row">       
+                        <div class="col-md-6">        
+                            <div class="card text-justify">
+                              <div class="card-body">
+                                <h4 class="card-title">Vestimenta.</h4>
+                                <p class="card-text">
+                                    <img src="ropa.jpg" class="img-fluid" alt="">
+                                    Este traje típico es el traje nacional aunque originalmente solo fue utilizado por las mujeres de La Libertad, este traje representaba a la zona central de nuestro país; es utilizado para ejecutar danzas populares como el carnaval de San Miguel, Adentro Cojutepeque, Ambiente Festivo, El Día de la cruz, Los inditos del Volcán y Floreras. Esta elaborado de zatin de vistosos colores y delicados encajes.Esta complementado con un chal largo y de un solo tono.
+                                </p>
+                                <a href="#" class="btn btn-info">Entrar</a>
+                              </div>
+                            </div>          
+                        </div>
+                  
+                        <div class="col-md-6">        
+                            <div class="card text-justify">
+                              <div class="card-body">
+                                    <h4 class="card-title">Gastronomia.</h4>
+                                    <p class="card-text">
+                                        <img src="gastronomia.jpg" class="img-fluid" alt="">
+                                        Las comidas típicas de El Salvador tienen una gran influencia tanto indígena como extranjera, por parte de españoles, italianos y estadounidenses, que dejaron su huella en los fogones de este país centroamericano.
+                                    </p>
+                                    <a href="#" class="btn btn-dark">Entrar</a>
+                                </div>
+                            </div>          
+                        </div>
+                    </div>  
+                </div> 
+            </div>
+        </div>        
+
+        <h2>Modal con formulario</h2>
+        
+        <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#dialogo4">Ingresar</button>
+
+        <div class="modal fade" id="dialogo4">
+            <div class="modal-dialog modal-md">
+              <div class="modal-content">
+          
+                    <div class="modal-header">
+                    <h4 class="modal-title">Lorem, ipsum dolor.</h4>
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    </div>
+            
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="email">Ingrese su email:</label>
+                                <input type="email" name="" id="" class="form-control">
+                                <label for="password">Ingrese su clave:</label>
+                                <input type="password" class="form-control" name="clave" id=""> <br>
+                                <button type="submit" class="btn btn-success btn-block ">Entrar</button>
+                            </div>
+                        </form>
+                    </div>
+            
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+          
+                </div>
+            </div>
+        </div> 
+        <br>
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item"><a href="practica_11.html" class="page-link"> < </a></li>
+            <li class="page-item active"><a href="practica_12.html" class="page-link">Practica 12</a></li>
+            <li class="page-item"><a href="practica_11.html" class="page-link">Practica 11</a></li> 
+            <li class="page-item"><a href="practica_10.html" class="page-link">Practica 10</a></li>
+            <li class="page-item"><a href="practica_9.html" class="page-link">Practica 9</a></li>
+        </ul>
+
+
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>       
