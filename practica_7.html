@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 7</title>
+    <!--Link de conexion con booststrap 4.6 version estable asctualmente -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Pensun de medicina.</h1>
+        <!--Salto de linea-->
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Programas académicos.</h2>
+            </div>
+            <div class="col-md-6">
+                <h2>Ciclo de ciencias  básicas.</h2>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-md-6">
+                <h2>Ciclo de Formación Profesional.</h2>
+            </div>
+            
+            <div class="col-md-6">
+                <h2>Ciclo de estudios premedicos.</h2>
+            </div>
+        </div>
+
+        <!--Reordenar columnas-->
+        <div class="row">
+            <div class="col order-3">
+                <h2>Membresia</h2>
+                <p>
+                    Sociedad de Simulación en Salud (SSH)
+                    </p>
+                
+            </div>
+            <div class="col order-2">
+                <h2>Membresia</h2>
+                <p>
+                    Asociación Dominicana de Facultades y Escuelas de Medicina (ADOFEM).
+                    </p>
+
+                
+            </div>
+            <div class="col order-1">
+                <h2>Membresia</h2>
+                <p>
+                    Federación Panamericana de Facultades y Escuelas de Medicina (FEPAFEM).
+                    </p>
+                
+            </div>
+        </div>
+        <!--Anidamiento de columnas-->
+        <div class="row">
+            <div class="col-md-6" style="background-color: rgb(180, 255, 226);">
+                <h3>Descripción general y perfil del egresado.</h3>
+                <p>El plan de estudios de la carrera de Medicina, procura la formación de un médico dotado de competencias integradas, capaz de incorporar conocimientos disciplinarios e interdisciplinarios asociados a su campo profesional que le garantizan un desempeño exitoso y de impacto en nuestra sociedad.</p>
+            </div>
+            <div class="col-md-6" style="background-color: rgb(190, 255, 255);">
+                <h3>Estudiso generales.</h3>
+                <p>Los Estudios Generales constituyen el componente de la educación superior que permite el desarrollo de una sólida formación integral en futuros profesionales, para constituirse en sujetos con definidas posturas éticas y con una crítica visión del mundo y de sus complejidades, en aspectos dimensionales como: lo histórico-cultural, lo socio linguístico, lo filosófico, humanístico y artístico, la sensibilidad por contribuir a la sustentabilidad del  medio ambiente y la calidad de vida, así como el papel de lo científico y lo tecnológico en el desarrollo humano.</p>
+                <div class="row">
+                    
+                    <div class="col-md-6" style="background-color: rgb(202, 255, 255);">
+                        <h3>Concentraciones y menciones.</h3>
+                        <p>El programa de medicina ofrece varias salidas en adición a la Certificación de ECFMG. Las mismas parten de las Concentraciones definidas en los Lineamientos Curriculares de la Universidad e integran componentes adicionales para lograr una propuesta académica relevante y de calidad.</p>
+                    </div>
+                    <div class="col-md-6" style="background-color: rgb(225, 255, 255);">
+                        <h3>Membresías.</h3>
+                     <ul>
+                         <li>Asociación Dominicana de Facultades y Escuelas de Medicina (ADOFEM)</li>
+                         <li>Federación Panamericana de Facultades y Escuelas de Medicina (FEPAFEM)</li>
+                         <li>Sociedad de Simulación en Salud (SSH)</li>
+                         <li>Asociación Latinoamericana de Simulación Clínica (ALASIC)</li>
+                         <li>AAMC-Global Health Learning Opportunities Services</li>
+                     </ul>
+                    </div>
+                </div> 
+            </div>  
+        </div>   
+        <!--desplazamiento de columna-->
+        <div class="row">
+            <div class="col-md-4" style="background-color: rgb(185, 255, 255);">
+               <p>Numero uno</p> 
+            </div>
+            <div class="col-md-4 offset-md-4" style="background-color: rgb(185, 255, 255);">
+                <p>Numero dos</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 offset-md-4" style="background-color: rgb(185, 255, 255);">
+               <p>Numero tres</p> 
+            </div>
+            <div class="col-md-4" style="background-color: rgb(185, 255, 255);">
+                <p>Numero cuatro</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" style="background-color: rgb(185, 255, 255);">
+               <p>Numero cinco</p> 
+            </div>
+            <div class="col-md-4 offset-md-4" style="background-color: rgb(185, 255, 255);">
+                <p>Numero seis</p>
+            </div>
+        </div> 
+
+        <!--tablas-->
+            <!--Tabla basica-->
+            <h2>Algunas materias del Pensum de la carrera de medicina en los primeros 2 años</h2>
+        <table class="table">
+            <caption>Primer Semestre.</caption>
+            <thead>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Horas totales</th>
+                    <th>Creditos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Biología Básica</td>
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Laboratorio de Biología Básica</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Orientación Institucional </td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Lengua Española Básica I</td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Matemática Básica</td>
+                    <td>4</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Química Básica</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+
+        </table>    
+
+        <table class="table table-dark">
+            <caption>Segundo Semestre.</caption>
+            <thead>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Horas totales</th>
+                    <th>Creditos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Biofísica</td>
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Lab Biofísica</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Lengua Española Básica II  </td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Fund de Desarrollo Cognitivo</td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Química Orgánica</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Vida en Comunidad</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+
+        </table>  
+
+        <table class="table table-striped">
+            <caption>Tercer Semestre.</caption>
+            <thead>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Horas totales</th>
+                    <th>Creditos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Estructuras y Sist Anatómicos</td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Lab Estruct y Sist Anatómicos</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Bases para el Anal Biométrico</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Introducción A La Informática</td>
+                    <td>4</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Inglés Técnico en Salud I </td>
+                    <td>4</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Antrop Aplicada en Medicina</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+
+        </table> 
+
+        <table class="table table-bordered table-dark">
+            <caption>Cuarto Semestre.</caption>
+            <thead>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Horas totales</th>
+                    <th>Creditos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bases Hist del Organismo </td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Lab Bases Hist del Organismo</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Fisiología Celular</td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Tecn Inform E Invest en Salud</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Inglés Técnico en Salud II </td>
+                    <td>4</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Fund de Soporte Vital Básico</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+
+        </table> 
+
+
+    </div>
+
+    <!--js y jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
